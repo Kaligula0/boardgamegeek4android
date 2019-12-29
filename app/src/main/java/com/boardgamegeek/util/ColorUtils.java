@@ -29,12 +29,15 @@ public class ColorUtils {
 	// private static final int LTGRAY = 0xFFCCCCCC;
 	private static final int WHITE = 0xFFFFFFFF;
 	private static final int RED = 0xFFFF0000;
-	private static final int GREEN = 0xFF008000; // dark green really
+	private static final int DKGREEN = 0xFF006400; // dark green really
+	private static final int GREEN = 0xFF32CD32; // lime green
+	private static final int LTGREEN = 0xFFBAFF00; // grass green
 	private static final int BLUE = 0xFF0000FF;
 	private static final int YELLOW = 0xFFFFFF00;
-	// private static final int CYAN = 0xFF00FFFF;
+	private static final int CYAN = 0xFF00FFFF;
 	// private static final int MAGENTA = 0xFFFF00FF;
 	private static final int PURPLE = 0xFF800080;
+	private static final int VIOLET = 0xFF7F00FF;
 	private static final int ORANGE = 0xFFE59400;
 	private static final int BROWN = 0xFFA52A2A;
 	private static final int NATURAL = 0xFFE9C2A6;
@@ -149,8 +152,11 @@ public class ColorUtils {
 		colorNameList.add(new Pair<>("Rose", ROSE));
 		colorNameList.add(new Pair<>("Pink", PINK));
 		colorNameList.add(new Pair<>("Teal", TEAL));
+		colorNameList.add(new Pair<>("Cyan", CYAN));
+		colorNameList.add(new Pair<>("Dark Green", DKGREEN));
+		colorNameList.add(new Pair<>("Light Green", LTGREEN));
+		colorNameList.add(new Pair<>("Violet", VIOLET));
 		// colorNameList.add(new Pair<String, Integer>("Aqua", AQUA));
-		// colorNameList.add(new Pair<String, Integer>("Cyan", CYAN));
 		// colorNameList.add(new Pair<String, Integer>("Magenta", MAGENTA));
 		// colorNameList.add(new Pair<String, Integer>("Light Gray", LTGRAY));
 		// colorNameList.add(new Pair<String, Integer>("Dark Gray", DKGRAY));
